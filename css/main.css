@@ -1,0 +1,128 @@
+.studit {
+    height: 850px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 220px;
+    background: url(image/kilir.jpg) no-repeat;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.33);
+}
+
+.studit > .text {
+    margin: 100px auto;
+    width: 70%;
+}
+
+.hr {
+    height: 2px;
+}
+
+.hr {
+    background-color: rgba(255, 255, 255, 0.56);
+    border-radius: 100%;
+    display: block;
+}
+
+.studit > .text > .main {
+    font-size: 150px;
+    margin: 0 auto;
+    display: table;
+    color: white;
+}
+
+.studit > .text > .invite {
+    color: white;
+    padding-top: 30px;
+    font-size: 40px;
+    margin: 0 auto;
+    display: table;
+}
+
+.studit > .text > .block {
+    padding-top: 80px;
+}
+
+.studit > .text > .block > ul {
+    color: #ff0000;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.studit > .text > .block > ul > li > .btn {
+    width: 76px;
+    height: 76px;
+    border-radius: 50px;
+    margin-right: 25px;
+    background-color: #ff0000;
+    border: 2px solid #ff0000;
+    transition: 0.2s;
+}
+
+.studit > .text > .block > ul > li > .btn:hover {
+    transition: 0.2s;
+    background-color: white;
+}
+
+.studit > .text > .block > ul > li > .btn:hover > i {
+    transition: 0.2s;
+    color: #ff0000;
+}
+
+.studit > .text > .block > ul > li {
+    display: flex;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.studit > .text > .block > ul > li > a {
+    margin: auto;
+
+}
+
+
+#galka {
+    margin: 15px 0 0 13px;
+}
+
+#coffe {
+    margin-left: 14px;
+    margin-top: 14px;
+}
+
+#like {
+    margin-left: 17px;
+    margin-top: 13px;
+}
+
+.glass{
+    margin: auto;
+    margin-top: 50px;
+}
+
+.glass > a {
+    margin: auto;
+    display: table;
+    padding-top: 25px;
+    height: 49px;
+    text-align: center;
+    width: 430px;
+    font-size: 22px;
+    border: 3px solid #ff0000;
+    border-radius: 10px;
+    color: #ff0000;
+    transition: 0.5s;
+}
+
+.glass > a:hover {
+    background-color: #ff0000;
+    color: white;
+    transition: 0.5s;
+}
+
+.content {
+    width: 70%;
+    margin: 0px auto;
+    padding-bottom: 550px;
+    padding-top: 980px;
+}

@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+}
+
+.info {
+    background-color: rgba(237, 237, 237, 0.57);
+    border-bottom: 1.5px solid #aaaaaa;
+}
+
+i {
+    color: white;
+}
+
+.info > ul {
+    width: 50%;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info > ul > li {
+    display: block;
+    padding: 10px;
+    margin: auto;
+}
+
+.info > ul > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+.info > ul > #ikonki {
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+}
+
+.info > ul > #ikonki > a {
+    display: block;
+}
+
+.info > ul > #ikonki > .skype > i:hover {
+    color: #22c3f4;
+}
+
+.info > ul > #ikonki > .vk > i:hover {
+    color: #244bd1;
+}
+
+.info > ul > #ikonki > .insta > i:hover {
+    color: red;
+}
+
+
+.info > ul > #ikonki > a > i {
+    color: black;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    border-bottom: 2px solid rgba(235, 235, 235, 0.75);
+    display: flex
+}
+
+header > .logo {
+    margin-top: 10px;
+    margin-left: 2%;
+    position: fixed;
+    z-index: 10;
+    opacity: 0.75;
+}
+
+header > .logo > img {
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.44);
+}
+
+header > ul {
+    margin: 0 auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+header > ul > li > a {
+    color: black;
+    display: block;
+    padding: 40px 40px;
+    border-radius: 10px;
+}
+
+header > ul > li > a:hover {
+    color: red;
+}
+
+.profile{
+    width: 230px;
+    height: 80px;
+    margin: auto 300px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile > #photo > .photo {
+    width: 70px;
+    height: 70px;
+    background: url(css/image/monfrikjpg.jpg);
+    border-radius: 50px;
+/*    border: 2px solid rgba(0, 0, 0, 0.7);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+.profile > #photo > .photo > .black {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.07);
+    display: none;
+}
+
+.profile > #photo > .photo:hover > .black{
+    display: block
+}
+
+.profile > #photo{
+    margin: auto 0;   
+}
+
+.profile > #text {
+    display: table;
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    transition: 0.1s;
+}
+
+.profile > #text:hover {
+    color: #ff0000;
+    transition: 0.1s;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #484747;
+    display: flex;
+}
+
+footer > ul {
+    width: 30%;
+    height: auto;
+    margin-left: 10%;
+    list-style: none;
+}
+
+footer > ul > li {
+    margin: 60px 0;
+    color: white;
+}
+
+footer > ul > li > a  > a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    margin: 7px 15px;
+}
+
+.map {
+    width: 50%;
+    height: auto;
+    margin: 15px;
+}
+
+.map > iframe {
+    width: 100%;
+    height: 100%;
+}
